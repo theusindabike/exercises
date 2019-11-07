@@ -34,6 +34,7 @@ Suggested milestones for incremental development:
  -Fix main() to use the extract_names list
 """
 
+from lxml import html
 
 def extract_names(filename):
     """
